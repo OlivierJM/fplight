@@ -8,3 +8,8 @@ function double(x){
 [1,2,3,4,5,6].map(function mapper(v){
     console.log(double(v))
 })
+
+// with no point or no parameter input
+
+console.log([1, 2, 3, 4, 5, 6].map(double))
+
